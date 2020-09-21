@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fbfbfb;
+}
+
+.block_header_right_section {
+    padding: 15px 50px;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+    background-color: white;
+}
+
+.block_header_right_section_header {
+    margin-top: 150px;
+    font-family: "Bahnschrift", sans-serif;
+}
+
+#name {
+    font-size: 3em;
+    color: #bfbfbf;
+    padding-bottom: 0;
+    line-height: 90%;
+}
+
+#surname {
+    padding: 0;
+    margin-top: 0;
+    font-size: 1.7em;
+    color: #ffb01e;
+}
+
+#hopes {
+    color: #bfbfbf;
+    font-size: 1.3em;
+}
+
+.block_header_right_section_footer {
+    border-top: 2px solid #bfbfbf;
+    margin-top: 100px;
+}
+
+.footer_h3 {
+    font-size: 1.3em;
+    margin-top: 20px;
+    color: #7b7a7a;
+}
+
+.footer_p {
+    color: #bfbfbf;
+    margin-top: 10px;
+}
+
+.block_header_right_section_header_social {
+    margin-left: auto;
+}
