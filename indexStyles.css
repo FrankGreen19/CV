@@ -7,6 +7,10 @@ body {
     background-color: #fbfbfb;
 }
 
+.block_header_left_section {
+    margin-top: 125px;
+}
+
 .block_header_right_section {
     padding: 15px 50px;
     border-radius: 15px;
