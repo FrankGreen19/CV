@@ -7,8 +7,14 @@ body {
     background-color: #fbfbfb;
 }
 
+/*
+   ************************ Шапка ************************
+*/
+
 .block_header_left_section {
+    text-align: right;
     margin-top: 125px;
+    margin-right: 5px;
 }
 
 .block_header_right_section {
@@ -61,4 +67,84 @@ body {
 
 .block_header_right_section_header_social {
     margin-left: auto;
+}
+
+/*
+    ************************ Мэйн ***************************
+*/
+
+.block_main_right_section {
+    padding: 20px 50px;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+    background-color: white;
+}
+
+.block_main_left_section {
+    text-align: right;
+    margin-top: 32px;
+    margin-right: 15px;
+}
+
+.block_main_left_section_header {
+    position: relative;
+    font-size: 1.2em;
+    margin-right: auto;
+    color: #7b7a7a;
+}
+
+.work_block {
+    line-height: 70%;
+    color: #bfbfbf;
+}
+
+.work_block_h5 {
+    font-size: 1.2em;
+    color: #7b7a7a;
+}
+
+.skills_block {
+    margin-top: 20px;
+    margin-right: 20px;
+    line-height: 40%;
+}
+
+.scale{
+    width: 270px;
+    height: 10px;
+    background: #bfbfbf;
+    border-radius: 10px;
+}
+.fullness{
+    height: 100%;
+    background: #ffb01e;
+    border-radius: 10px;
+}
+
+.java{
+    width: 30%;
+}
+
+.php {
+    width: 20%;
+}
+
+.oop {
+    width: 30%;
+}
+
+.node {
+    width: 10%;
+}
+
+.sql {
+    width: 30%;
+}
+
+@media (max-width: 576px) {
+    .block_header_left_section {
+        text-align: center;
+        margin: 40px;
+    }
 }
